@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			
+			.heben{
+				width: 420px;
+				height: 322px;
+				border: 2px solid #cacaca;
+				background: #656565;
+				margin: 30px auto;
+				position: relative;
+			}
+			.heben h1{
+				font-size: 18px;
+				color: #fff;
+				position: absolute;
+				top: 16px;left: 160px;
+			}
+			.left{
+				width: 282px;
+				height: 240px;
+				position: absolute;
+				top: 48px;left: 20px;
+				border-bottom: 1px solid #fff;
+				background: #cccccc;
+			}
+			.bigpic{
+				width: 280px;
+				height: 196px;
+				border: 1px solid #fff;
+				
+				overflow: hidden;
+			}
+			.bigpic img{
+				width: 280px;
+				height: 196px;
+				
+			}
+			.left p{
+				display: block;
+				font-size: 16px;
+				line-height: 16px;
+				position: absolute;
+				left: 20px;bottom: 11px;
+				overflow: hidden;
+			}
+			.left .liuman{
+				position: absolute;
+				left: 108px;bottom: 11px;
+			}
+			.right{
+				width: 80px;
+				height: 240px;
+				position: absolute;
+				top: 48px;right: 0;
+			
+			}
+			.smallpic{
+				width: 80px;
+				height: 240px;
+				overflow: scroll ;
+				overflow: auto;
+				overflow-x: hidden;
+			}
+			.smallpic img:hover{
+				border: 1px solid #FFF;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="heben">
+			<h1>我的电子相册</h1>
+			<div class="left">
+				<div class="bigpic">
+					<img id="pic1" src="images/mn1.jpg" > 
+					<img id="pic2" src="images/mn2.jpg" > 
+					<img id="pic3" src="images/mn3.jpg" > 
+					<img id="pic4" src="images/mn4.jpg" > 
+					<img id="pic5" src="images/mn5.jpg" > 
+					<img id="pic6" src="images/mn6.jpg" > 
+					<img id="pic7" src="images/mn7.jpg" > 
+					<img id="pic8" src="images/mn8.jpg" > 
+				</div>
+				<p id="p1">这是美女-1</p> 
+				<a href="#" class="liuman">www.baidu.com</a>
+			</div>
+			
+			<div class="right">
+				<div class="smallpic">
+					<a href="#pic1 "><img src="images/c1.jpg" ></a>
+					<a href="#pic2 "><img src="images/c2.jpg" ></a>
+					<a href="#pic3 "><img src="images/c3.jpg" ></a>
+					<a href="#pic4"><img src="images/c4.jpg" ></a>
+					<a href="#pic5"><img src="images/c5.jpg" ></a>
+					<a href="#pic6"><img src="images/c6.jpg" ></a>
+					<a href="#pic7"><img src="images/c7.jpg" ></a>
+					<a href="#pic8"><img src="images/c8.jpg" ></a>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

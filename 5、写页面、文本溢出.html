@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<h2>一、文本溢出属性：</h2>
+<h1> <strong>text-overflow</strong>:clip /ellipsis</h1>
+<h2>取值：</h2>
+<h2>clip：不显示省略标记（...），而是简单的裁切。</h2>
+<h2>ellipsis：当对象内文本溢出时显示省略标记（...）</h2>
+<h1>说明：</h1>
+<ol>
+  <h2>text-overflow属性仅是注解当文本溢出时是否显示省略标记。并不具备其它的样式属性定义。要实现溢出时产生省略号的效果还须定义：</h2>
+  <h2>1.容器宽度；width:value;</h2>
+  <h2>2.强制文本在一行内显示 ,&nbsp;&nbsp;&nbsp;white-space:nowrap</h2>
+  <h2>3.溢出内容为隐藏,&nbsp;&nbsp;&nbsp;&nbsp; overflow:hidden</h2>
+  <h2>4.溢出文本显示省略号，text-overflow:ellipsis;</h2>
+</ol>
+<p>&nbsp;</p>
+<h1>二、关于文本溢出:</h1>
+<h1>1. 溢出属性：</h1>
+<h1>overflow :visible/hidden/scroll/auto/inherit</h1>
+<table>
+  <tbody>
+    <tr>
+      <th width="112"><h1>值</h1></th>
+      <th width="1062"><h1>描述</h1></th>
+    </tr>
+    <tr>
+      <td><h1>visible</h1></td>
+      <td><h1>默认值。内容不会被修剪，会呈现在元素框之外。</h1></td>
+    </tr>
+    <tr>
+      <td><h1>hidden</h1></td>
+      <td><h1>内容会被修剪，并且其余内容是不可见的。</h1></td>
+    </tr>
+    <tr>
+      <td><h1>scroll</h1></td>
+      <td><h1>内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。</h1></td>
+    </tr>
+    <tr>
+      <td><h1>auto</h1></td>
+      <td><h1>如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。</h1></td>
+    </tr>
+    <tr>
+      <td height="50"><h1>inherit</h1></td>
+      <td><h1>规定应该从父元素继承 overflow 属性的值。</h1></td>
+    </tr>
+  </tbody>
+</table>
+<h2>overflow-x:hidden; 隐藏横向滚动条</h2>
+<h2>overflow-y:hidden; 隐藏纵向滚动条</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>2.空余空间属性 (该属性用来设置如何处理元素内的空白；)</h1>
+<h1>  white-space:normal/pre/nowrap/pre-wrap /pre-line /inherit&nbsp;&nbsp;&nbsp;</h1>
+<p>normal：默认值，空白会被浏览器忽略， </p>
+<p>nowrap:文本不会换行，文本会在同一行上继续，直到遇到标签&lt;br /&gt;为止</p>
+<p>pre：空白会被浏览器保留，其行为方式类似HTML中的pre标签；</p>
+<p>pre-wrap：保留空白符序列，但是正常的进行换行；</p>
+<p>pre-line:合并空白符序列，但是保留换行符；</p>
+<p>inherit：规定应该从父元素继承White-space属性的值；(ie浏览器不支持此属性值)</p>
+<h1>&nbsp;</h1>
+<p>&nbsp;  </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
